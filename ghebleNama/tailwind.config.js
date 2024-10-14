@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontSize:{
+        normalText:"16px"
+      },
       textColor:{
         textheader:"rgba(117, 117, 117, 1)",
         textHeaderTwo:"#663fbf",
