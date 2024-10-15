@@ -3,6 +3,7 @@ import {HeaderSideComponent} from "../../Organisms/header-side/header-side.compo
 import {SliderShowComponent} from "../../Organisms/slider-show/slider-show.component";
 import {AdvertisNBComponent} from "../../Organisms/advertis-nb/advertis-nb.component";
 import {StartCategoryComponent} from "../../Organisms/start-category/start-category.component";
+import {TableTimesComponent} from "../../Organisms/table-times/table-times.component";
 
 @Component({
   selector: 'app-home-page',
@@ -11,7 +12,8 @@ import {StartCategoryComponent} from "../../Organisms/start-category/start-categ
     HeaderSideComponent,
     SliderShowComponent,
     AdvertisNBComponent,
-    StartCategoryComponent
+    StartCategoryComponent,
+    TableTimesComponent
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css'
