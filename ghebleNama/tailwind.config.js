@@ -17,6 +17,7 @@ module.exports = {
       },
       backgroundColor:{
         boackmain:"#f9f9f9",
+        newColor:"#eae6f3",
         botenOne:"#69d87e",
         botenTwo:"#663fbf",
       }

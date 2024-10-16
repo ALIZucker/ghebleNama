@@ -1,0 +1,40 @@
+<p-carousel
+  [value]="products"
+  [numVisible]="3"
+  [numScroll]="3"
+  [circular]="false"
+  [responsiveOptions]="responsiveOptions">
+  <ng-template let-product pTemplate="item">
+    <div class="bg-white mx-3  w-[360px] rounded-2xl h-[410px] p-6  ">
+      <div class="mb-3 ">
+        <div class="relative mx-auto ">
+          <!--تصاویر-->
+          <img
+            [src]="product.img"
+            [alt]="product.alt"
+            class="  h-[234px] w-[312px] object-cover  rounded-2xl"/>
+        </div>
+      </div>
+      <!--عنوان پست-->
+      <div class="flex flex-col items-start justify-between  facetext">
+        <p class=" text-[14px]">
+          {{ product.alt }}
+        </p>
+        <p class=" text-itemsText" style="font-weight: 700;">
+          {{ product.title }}
+        </p>
+        <p class="w-full text-left text-[12px] " style="font-weight: 400;">
+          {{ product.description }}
+        </p>
+
+      </div>
+
+
+      <span >
+                            <p-button icon="pi pi-heart" severity="secondary" [outlined]="true" />
+                            <p-button icon="pi pi-shopping-cart" styleClass="ml-2" />
+                        </span>
+    </div>
+
+  </ng-template>
+</p-carousel>

@@ -25,10 +25,15 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
               "src/styles.css"
               ,"src/assets/fons/stylesheet.css"
+
             ],
-            "scripts": [],
+            "scripts": [
+
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {

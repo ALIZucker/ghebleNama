@@ -4,6 +4,8 @@ import {SliderShowComponent} from "../../Organisms/slider-show/slider-show.compo
 import {AdvertisNBComponent} from "../../Organisms/advertis-nb/advertis-nb.component";
 import {StartCategoryComponent} from "../../Organisms/start-category/start-category.component";
 import {TableTimesComponent} from "../../Organisms/table-times/table-times.component";
+import {CompoNewsComponent} from "../../Organisms/compo-news/compo-news.component";
+import {BannerShowComponent} from "../../Organisms/banner-show/banner-show.component";
 
 @Component({
   selector: 'app-home-page',
@@ -13,7 +15,9 @@ import {TableTimesComponent} from "../../Organisms/table-times/table-times.compo
     SliderShowComponent,
     AdvertisNBComponent,
     StartCategoryComponent,
-    TableTimesComponent
+    TableTimesComponent,
+    CompoNewsComponent,
+    BannerShowComponent
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.css'
