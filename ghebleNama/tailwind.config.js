@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontSize:{
-        itemsText:"16px",
-        titleText:"32px",
-        textNormal:"20px",
+        itemsText:"1.1042vw",
+        titleText:"2.2222vw",
+        textNormal:"1.3889vw",
         textNormal2:"24px"
       },
       textColor:{
