@@ -8,8 +8,8 @@ module.exports = {
       fontSize:{
         itemsText:"1.1042vw",
         titleText:"2.2222vw",
-        textNormal:"1.3889vw",
-        textNormal2:"24px"
+        textNormal:"1.3263vw",
+        textNormal2:"24px",
       },
       textColor:{
         textheader:"rgba(117, 117, 117, 1)",
