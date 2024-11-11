@@ -20,7 +20,8 @@ module.exports = {
         newColor:"#eae6f3",
         botenOne:"#69d87e",
         botenTwo:"#663fbf",
-        colorPerpel:"#c4b5e6"
+        colorPerpel:"#c4b5e6",
+        loginColor:"#f5f5f5"
       }
     },
   },

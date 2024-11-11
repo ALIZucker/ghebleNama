@@ -1,3 +1,15 @@
-<div class="flex facetext flex-row w-full b">
-
+<div class="flex facetext flex-row-reverse  w-full my-4 py-6">
+    <form [formGroup]="myformGroup"  class=" w-[43.634vw] facetext bg-loginColor rounded-2xl flex flex-col items-center py-[10vh]">
+      <h2 class="text-[1.9894vw] font-semibold">ورود به حساب کاربری</h2>
+        <div class="flex flex-col items-start gap-1 mt-[7.8912vh] facetext">
+          <p class="text-[14px]">نام</p>
+          <input type="text" formControlName="nameUser"   class="text-[0.7958vw] w-[20.0928vw] p-2 rounded-lg" placeholder="نام">
+        </div>
+      <div class="flex flex-col items-start gap-1 mt-[2.449vh] facetext">
+        <p class="text-[14px]">رمز ورود </p>
+        <input type="text" formControlName="passUser"   class="text-[0.7958vw] w-[20.0928vw] p-2 rounded-lg" placeholder="123456789">
+      </div>
+      <button (click)="saveinLocall($event)"  class="facetext w-[20.0928vw] text-itemsText rounded-lg mt-[4.449vh] h-[4.898vh] bg-botenTwo text-white font-medium"> ثبت</button>
+    </form>
+    <img src="assets/img/login.jfif" class="w-[45.4907vw] object-cover brightness-75">
 </div>
