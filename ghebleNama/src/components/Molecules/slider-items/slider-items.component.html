@@ -1,33 +1,11 @@
 <div style="box-shadow: 0 1px 5px 3px rgba(37, 37, 37, 0.16)"
      class="facetext absolute left-[16.6vw] top-[582px] h-auto w-auto rounded-2xl flex flex-row-reverse  py-6 bg-white">
-  <section class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
-    <img src="assets/icon/book.png" class="w-8 h-8">
+
+  <section (click)="clickUpdate()"  *ngFor="let item of signalData?.()" class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
+    <img [src]="item.imageAdress" class="w-8 h-8">
     <p class="text-textNormal font-semibold" style="direction: rtl;">
-      <span>۱۲۴۸</span> +جلسه
+      {{item.textTitle}}
     </p>
   </section>
-  <section class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
-    <img src="assets/icon/teacher.png" class="w-8 h-8">
-    <p class="text-textNormal font-semibold" style="direction: rtl;">
-      <span>۱۱۰</span> +دوره آموزشی
-    </p>
-  </section>
-  <section class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
-    <img src="assets/icon/profile-2user.png" class="w-8 h-8">
-    <p class="text-textNormal font-semibold" style="direction: rtl;">
-      <span>۴۰۰۰۰</span> +نفر عضو
-    </p>
-  </section>
-  <section class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
-    <img src="assets/icon/user-octagon.png" class="w-8 h-8">
-    <p class="text-textNormal font-semibold" style="direction: rtl;">
-      <span>۳۰۰</span> +نماینده
-    </p>
-  </section>
-  <section class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
-    <img src="assets/icon/book.png" class="w-8 h-8">
-    <p class="text-textNormal font-semibold" style="direction: rtl;">
-      <span>۲۵۰۰</span> +چندرسانه ای
-    </p>
-  </section>
+
 </div>
