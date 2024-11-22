@@ -15,7 +15,7 @@ import {CommonModule} from "@angular/common";
   templateUrl: './slider-items.component.html',
   styleUrl: './slider-items.component.css'
 })
-export class SliderItemsComponent implements OnInit {
+export class SliderItemsComponent  {
   dataBnanner$!: Observable<bannerItems[]>;
   signalData?:Signal<bannerItems[]|undefined>
 
@@ -26,14 +26,4 @@ export class SliderItemsComponent implements OnInit {
 
 
 
-  ngOnInit(): void {
-   // @ts-ignore
-    this.signalData()?.forEach(value => {
-    console.log(value)
-  });
-  }
-
-  clickUpdate() {
-
-  }
 }

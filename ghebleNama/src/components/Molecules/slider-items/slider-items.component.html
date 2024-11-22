@@ -1,7 +1,7 @@
 <div style="box-shadow: 0 1px 5px 3px rgba(37, 37, 37, 0.16)"
      class="facetext absolute left-[16.6vw] top-[582px] h-auto w-auto rounded-2xl flex flex-row-reverse  py-6 bg-white">
 
-  <section (click)="clickUpdate()"  *ngFor="let item of signalData?.()" class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
+  <section  *ngFor="let item of signalData?.()" class="w-[12.3343vw] h-[80px]  gap-2 px-4 flex flex-col items-center box-border ">
     <img [src]="item.imageAdress" class="w-8 h-8">
     <p class="text-textNormal font-semibold" style="direction: rtl;">
       {{item.textTitle}}
